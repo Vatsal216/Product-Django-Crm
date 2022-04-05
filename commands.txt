@@ -1,0 +1,2 @@
+docker build --tag stock .
+docker run --publish 8001:8001 stock
